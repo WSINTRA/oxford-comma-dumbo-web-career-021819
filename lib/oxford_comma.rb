@@ -1,3 +1,6 @@
 def oxford_comma(array)
-array.join(" and ").rstrip
+  if array.length < 2
+    array.join(" and ").rstrip
+  else
+    array.join(",").rstrip
 end
