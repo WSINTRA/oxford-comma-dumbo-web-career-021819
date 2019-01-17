@@ -4,3 +4,4 @@ def oxford_comma(array)
   else
     array.join(",").rstrip
 end
+end
